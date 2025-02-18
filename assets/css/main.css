@@ -1623,7 +1623,7 @@ section,
 }
 
 .btn-scroll-down:hover i {
-  color: #920038;
+  color: #fff;
 }
 
 @keyframes bounce {
