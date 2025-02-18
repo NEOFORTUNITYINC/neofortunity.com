@@ -1606,3 +1606,30 @@ section,
   margin: 0 auto;
   border-radius: 2px;
 }
+
+.arrow-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.btn-scroll-down i {
+  font-size: 3rem;
+  color: #fff;
+  transition: font-size 0.3s ease;
+}
+
+/* 媒体查询用于调整小屏幕上的箭头大小 */
+@media (max-width: 768px) {
+  .btn-scroll-down i {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn-scroll-down i {
+    font-size: 2rem;
+  }
+}
