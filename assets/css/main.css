@@ -1693,12 +1693,3 @@ section,
   /* top: 50%; */
   /* transform: translateY(-50%); */
 }
-
-@media (max-width: 768px) {
-  .content-section {
-    padding: 30px 10px; /* 调整填充以适应小屏幕 */
-  }
-  .content-section p {
-    font-size: 1rem; /* 调整字体大小 */
-  }
-}
