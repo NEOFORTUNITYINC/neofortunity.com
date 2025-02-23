@@ -1650,3 +1650,46 @@ section,
     font-size: 2rem;
   }
 }
+
+.content-section ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+  text-align: left;
+}
+
+.content-section ul > li {
+  padding: 10px 0;
+  font-size: 1.2rem;
+  position: relative;
+  padding-left: 25px; /* Adjusted for better alignment */
+  line-height: 1.5; /* Ensures vertical alignment */
+}
+
+.content-section ul > li::before {
+  /* content: "•"; */ /* Comment out or remove this line to remove custom bullet */
+  /* color: inherit; */
+  /* display: inline-block; */
+  /* position: absolute; */
+  /* left: 0; */
+  /* top: 50%; */
+  /* transform: translateY(-50%); */
+}
+
+.content-section ul ul {
+  padding-left: 20px; /* Indent sublist */
+}
+
+.content-section ul ul > li {
+  padding-left: 25px; /* Ensure sublist items are aligned */
+  position: relative;
+}
+
+.content-section ul ul > li::before {
+  /* content: "•"; */ /* Comment out or remove this line to remove custom bullet */
+  /* color: inherit; */
+  /* display: inline-block; */
+  /* position: absolute; */
+  /* left: 0; */
+  /* top: 50%; */
+  /* transform: translateY(-50%); */
+}
